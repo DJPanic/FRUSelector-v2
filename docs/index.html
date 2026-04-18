@@ -268,7 +268,7 @@ const DIMENSIONS = [
     label: 'Storage',
     priority: 4,
     extract: (desc) => {
-      const m = desc.match(/\b(128|256|512)\s*GB\b/i);
+      const m = desc.match(/\b(64|128|256|512)\s*GB\b(?!\s*(?:RAM))/i);
       if (m) return m[1] + ' GB';
       const t = desc.match(/\b([12])\s*TB\b/i);
       if (t) return t[1] + ' TB';
