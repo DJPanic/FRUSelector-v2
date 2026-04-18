@@ -628,7 +628,7 @@ function renderFilters() {
     defaultOpt.value = '';
     defaultOpt.textContent = available.length === 1
       ? available[0] + ' (only option)'
-      : 'All ' + variant.label + 's';
+      : 'All options';
     select.appendChild(defaultOpt);
 
     for (const val of available) {
