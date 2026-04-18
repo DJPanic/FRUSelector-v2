@@ -1,0 +1,49 @@
+.variant-selector {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  min-height: 150px;
+}
+
+.variant-selector h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.variants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.variant-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.variant-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.variant-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.variant-dropdown:hover {
+  border-color: #0078d4;
+}
+
+.variant-dropdown:focus {
+  outline: none;
+  border-color: #0078d4;
+  box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.1);
+}

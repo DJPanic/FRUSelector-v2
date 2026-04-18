@@ -1,0 +1,37 @@
+.family-selector {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.family-selector h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.family-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.family-btn {
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.family-btn:hover {
+  border-color: #0078d4;
+  color: #0078d4;
+}
+
+.family-btn.active {
+  background: #0078d4;
+  color: white;
+  border-color: #0078d4;
+}

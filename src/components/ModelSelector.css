@@ -1,0 +1,47 @@
+.model-selector {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  min-height: 150px;
+}
+
+.model-selector h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.model-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.model-item {
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.model-item:hover {
+  border-color: #0078d4;
+  box-shadow: 0 2px 8px rgba(0, 120, 212, 0.15);
+}
+
+.model-item.active {
+  border-color: #0078d4;
+  background: #f0f8ff;
+}
+
+.model-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.model-sku {
+  font-size: 12px;
+  color: #666;
+}
