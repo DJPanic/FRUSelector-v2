@@ -268,10 +268,13 @@ const DIMENSIONS = [
     label: 'Storage',
     priority: 4,
     extract: (desc) => {
-      const m = desc.match(/\b(64|128|256|512)\s*GB\b(?!\s*(?:RAM))/i);
+      const m = desc.match(/\b(128|256|512)\s*GB\b/i);
       if (m) return m[1] + ' GB';
       const t = desc.match(/\b([12])\s*TB\b/i);
       if (t) return t[1] + ' TB';
+      // 64GB is storage only when explicitly labeled or as second GB value (e.g. "8GB / 64GB")
+      if (/\b64\s*GB\s*Storage/i.test(desc)) return '64 GB';
+      if (/\d+\s*GB\s*\/\s*64\s*GB\b/i.test(desc)) return '64 GB';
       return null;
     }
   },
