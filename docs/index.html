@@ -346,9 +346,21 @@ const DIMENSIONS = [
     }
   },
   {
+    id: 'gpu',
+    label: 'Graphics',
+    priority: 11,
+    extract: (desc) => {
+      const m = desc.match(/RTX\s*(\d{4}[A-Za-z]*)/i);
+      if (m) return 'RTX ' + m[1].toUpperCase();
+      if (/\biGPU\b/i.test(desc)) return 'Integrated (iGPU)';
+      if (/\bdGPU\b/i.test(desc) && !m) return 'Discrete GPU';
+      return null;
+    }
+  },
+  {
     id: 'region',
     label: 'Keyboard Region',
-    priority: 11,
+    priority: 12,
     extract: (desc) => {
       for (const [pattern, displayName] of KB_PATTERNS) {
         const escaped = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
