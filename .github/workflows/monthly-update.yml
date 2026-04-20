@@ -1,0 +1,80 @@
+name: Monthly FRU Data Update
+
+on:
+  schedule:
+    # Run at midnight UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+    # Allow manual triggering from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-fru-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Scrape latest service guide data
+        run: |
+          echo "Scraping Microsoft Learn service guides..."
+          python scripts/scrape_service_guides.py scraped_data.json
+
+      - name: Build, validate, and update HTML
+        id: build
+        run: |
+          echo "Building and validating..."
+          python scripts/build_and_validate.py scraped_data.json docs/index.html
+          EXIT_CODE=$?
+          if [ $EXIT_CODE -eq 2 ]; then
+            echo "warnings=true" >> $GITHUB_OUTPUT
+            echo "⚠️ Validation warnings found — review the log above"
+          elif [ $EXIT_CODE -ne 0 ]; then
+            echo "❌ Build failed!"
+            exit 1
+          fi
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet docs/index.html && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          MONTH=$(date +"%B %Y")
+          PARTS=$(python -c "
+          import json, re
+          with open('docs/index.html','r') as f: c=f.read()
+          m=re.search(r'const DATA\s*=\s*',c); s=m.end(); e=c.find(';\n',s)
+          d=json.loads(c[s:e])
+          print(f\"{len(d['devices'])} devices, {len(d['parts'])} parts\")
+          ")
+          
+          git add docs/index.html
+          git commit -m "Monthly FRU data update — ${MONTH}
+
+          Automated refresh from Microsoft Learn service guides.
+          ${PARTS}
+          
+          Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+          
+          git push
+
+      - name: No changes detected
+        if: steps.changes.outputs.changed != 'true'
+        run: echo "✅ No data changes detected — HTML is already up to date"
+
+      - name: Clean up
+        if: always()
+        run: rm -f scraped_data.json
