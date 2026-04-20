@@ -258,7 +258,7 @@ const DIMENSIONS = [
     priority: 3,
     extract: (desc) => {
       // Match memory but NOT storage (exclude "GB Storage" patterns)
-      const m = desc.match(/\b(4|8|16|32|64)\s*GB\b(?!\s*(?:Storage|SSD|rSSD))/i);
+      const m = desc.match(/\b(4|8|16|24|32|64)\s*GB\b(?!\s*(?:Storage|SSD|rSSD))/i);
       return m ? m[1] + ' GB' : null;
     }
   },
