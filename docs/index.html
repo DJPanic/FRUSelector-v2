@@ -248,14 +248,13 @@ const DIMENSIONS = [
     label: 'Processor',
     priority: 2,
     extract: (desc) => {
-      if (/\bElite\b/i.test(desc)) return 'Snapdragon X Elite';
-      if (/\bPlus\b/i.test(desc)) return 'Snapdragon X Plus';
+      if (/\bElite\b/i.test(desc)) return 'X Elite';
+      if (/\bPlus\b/i.test(desc)) return 'X Plus';
       if (/\bUltra\s*7\b/i.test(desc)) return 'Intel Core Ultra 7';
       if (/\bUltra\s*5\b/i.test(desc)) return 'Intel Core Ultra 5';
       if (/\bi7\b/i.test(desc)) return 'Intel Core i7';
       if (/\bi5\b/i.test(desc)) return 'Intel Core i5';
       if (/\bi3\b/i.test(desc)) return 'Intel Core i3';
-      if (/\bSnapdragon\b/i.test(desc)) return 'Snapdragon';
       return null;
     }
   },
@@ -348,6 +347,7 @@ const DIMENSIONS = [
     priority: 10,
     extract: (desc) => {
       if (/\bCommercial\b/i.test(desc)) return 'Commercial';
+      if (/\bConsumer\b/i.test(desc)) return 'Consumer';
       return null;
     }
   },
@@ -364,9 +364,26 @@ const DIMENSIONS = [
     }
   },
   {
+    id: 'fiveG',
+    label: '5G Region',
+    priority: 12,
+    extract: (desc) => {
+      // Match 5G band region codes at end of motherboard descriptions
+      const codes = ['AOC', 'APAC', 'EOC1', 'EOC2'];
+      for (const code of codes) {
+        const re = new RegExp('\\b' + code + '\\s*$');
+        if (re.test(desc)) return code;
+      }
+      // China/Japan only when at end of description (avoids matching kickstands etc.)
+      if (/\bChina\s*$/.test(desc)) return 'China';
+      if (/\bJapan\s*$/.test(desc)) return 'Japan';
+      return null;
+    }
+  },
+  {
     id: 'region',
     label: 'Region',
-    priority: 12,
+    priority: 13,
     extract: (desc) => {
       for (const [pattern, displayName] of KB_PATTERNS) {
         const escaped = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
