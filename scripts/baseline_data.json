@@ -366,32 +366,32 @@
         {
           "part_number": "EP2-35070",
           "description": "Fan",
-          "category": "Fan"
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-35071",
           "description": "Speakers",
-          "category": "Speakers"
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-34197",
           "description": "Battery",
-          "category": "Battery"
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-35064",
           "description": "Thermal Module",
-          "category": "Thermal Module"
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-34198",
           "description": "USB-A and Audio Jack",
-          "category": "USB-A and Audio Jack"
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-35072",
           "description": "USB-C Port",
-          "category": "USB-C Port"
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-34348",
@@ -2529,26 +2529,22 @@
         {
           "part_number": "RPW-00003",
           "description": "Platinum Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "CIG-00002"
+          "category": "Non-Skid Feet"
         },
         {
           "part_number": "RPW-00001",
           "description": "Black Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "CIG-00001"
+          "category": "Non-Skid Feet"
         },
         {
           "part_number": "RPW-00006",
           "description": "Sage Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "CIG-00006"
+          "category": "Non-Skid Feet"
         },
         {
           "part_number": "RPW-00004",
           "description": "Sandstone Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "CIG-00004"
+          "category": "Non-Skid Feet"
         },
         {
           "part_number": "U1T-00001",
@@ -3081,20 +3077,17 @@
         {
           "part_number": "U1P-00001",
           "description": "rSSD 256 GB",
-          "category": "Removable Solid-State Drive (rSSD,NOTE: rSSD size must be same as original U1P-00001)",
-          "substitute": "U1Y-00001"
+          "category": "Removable Solid-State Drive (rSSD,NOTE: rSSD size must be same as original U1P-00001)"
         },
         {
           "part_number": "U1Q-00001",
           "description": "rSSD 512 GB",
-          "category": "Removable Solid-State Drive (rSSD,NOTE: rSSD size must be same as original U1P-00001)",
-          "substitute": "U1Z-00001"
+          "category": "Removable Solid-State Drive (rSSD,NOTE: rSSD size must be same as original U1P-00001)"
         },
         {
           "part_number": "U4I-00001",
           "description": "rSSD 1 TB",
-          "category": "Removable Solid-State Drive (rSSD,NOTE: rSSD size must be same as original U1P-00001)",
-          "substitute": "U7B-00001"
+          "category": "Removable Solid-State Drive (rSSD,NOTE: rSSD size must be same as original U1P-00001)"
         },
         {
           "part_number": "U1L-00001",
@@ -3135,14 +3128,12 @@
         {
           "part_number": "U1N-00001",
           "description": "Thermal Module + Fan",
-          "category": "Thermal Module (THM)",
-          "substitute": "U1X-00001"
+          "category": "Thermal Module (THM)"
         },
         {
           "part_number": "U1N-00002",
           "description": "Thermal Module + Fan",
-          "category": "Thermal Module (THM)",
-          "substitute": "U1X-00002"
+          "category": "Thermal Module (THM)"
         },
         {
           "part_number": "U1K-00001",
@@ -3327,32 +3318,27 @@
         {
           "part_number": "RPQ-00001",
           "description": "C Cover 13.5\" AMER/ASIA Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70920"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00069",
           "description": "C Cover 13.5” Mexico Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70954"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00003",
           "description": "C Cover 13.5\" Japan Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70922"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00002",
           "description": "C Cover 13.5\" French Canadian Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70921"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00004",
           "description": "C Cover 13.5\" Korea Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70923"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00005",
@@ -3362,20 +3348,17 @@
         {
           "part_number": "RPQ-00006",
           "description": "C Cover 13.5\" Taiwan Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70925"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00007",
           "description": "C Cover 13.5\" BH/KW/OM/QA/SA/AE Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70926"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00008",
           "description": "C Cover 13.5\" UK/Ireland Only Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70927"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00009",
@@ -3385,14 +3368,12 @@
         {
           "part_number": "RPQ-00010",
           "description": "C Cover 13.5\" Austria Germany Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70928"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00011",
           "description": "C Cover 13.5\" France Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70929"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00012",
@@ -3427,44 +3408,37 @@
         {
           "part_number": "RPQ-00018",
           "description": "C Cover 13.5\" AMER/ASIA Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70930"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00019",
           "description": "C Cover 13.5\" French Canadian Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70931"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00020",
           "description": "C Cover 13.5\" Japan Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70932"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00023",
           "description": "C Cover 13.5\" Taiwan Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70933"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00025",
           "description": "C Cover 13.5\" UK/Ireland Only Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70934"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00027",
           "description": "C Cover 13.5\" Austria Germany Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70935"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00028",
           "description": "C Cover 13.5\" France Cobalt Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70936"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00029",
@@ -3474,44 +3448,37 @@
         {
           "part_number": "RPQ-00035",
           "description": "C Cover 13.5\" AMER/ASIA Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70937"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00036",
           "description": "C Cover 13.5\" French Canadian Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70938"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "3BZ-00001",
           "description": "C Cover 13.5” Mexico Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70915"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00037",
           "description": "C Cover 13.5\" Japan Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70939"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00038",
           "description": "C Cover 13.5\" Korea Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70940"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00039",
           "description": "C Cover 13.5\" Thailand Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70941"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00040",
           "description": "C Cover 13.5\" Taiwan Platinum Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70942"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00041",
@@ -3591,80 +3558,67 @@
         {
           "part_number": "RPQ-00059",
           "description": "C Cover 13.5\" UK/Ireland Only Sandstone",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70951"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00061",
           "description": "C Cover 13.5\" Austria Germany Sandstone",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70952"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00062",
           "description": "C Cover 13.5\" France Sandstone",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70953"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00063",
           "description": "C Cover 13.5\" Switz/Lux Sandstone",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-68306"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00001",
           "description": "C Cover 15\" AMER/ASIA Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70963"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00002",
           "description": "C Cover 15\" French Canadian Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70964"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00037",
           "description": "C Cover 15\" Mexico Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70985"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00003",
           "description": "C Cover 15\" Japan Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70965"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00004",
           "description": "C Cover 15\" Korea Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70966"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00005",
           "description": "C Cover 15\" Thailand Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70967"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00006",
           "description": "C Cover 15\" Taiwan Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70968"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00007",
           "description": "C Cover 15\" BH/KW/OM/QA/SA/AE Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70969"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00008",
           "description": "C Cover 15\" UK/Ireland Only Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70970"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00009",
@@ -3674,14 +3628,12 @@
         {
           "part_number": "RPR-00010",
           "description": "C Cover 15\" Austria Germany Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70971"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00011",
           "description": "C Cover 15\" France Black",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70972"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00012",
@@ -3716,56 +3668,47 @@
         {
           "part_number": "RPR-00018",
           "description": "C Cover 15\" AMER/ASIA Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70973"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00019",
           "description": "C Cover 15\" French Canadian Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70974"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00038",
           "description": "C Cover 15” Mexico Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70986"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00020",
           "description": "C Cover 15\" Japan Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70975"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00021",
           "description": "C Cover 15\" Korea Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70976"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00022",
           "description": "C Cover 15\" Thailand Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70977"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00023",
           "description": "C Cover 15\" Taiwan Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70978"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00024",
           "description": "C Cover 15\" BH/KW/OM/QA/SA/AE Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70979"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00025",
           "description": "C Cover 15\" UK/Ireland Only Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70980"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00026",
@@ -3775,14 +3718,12 @@
         {
           "part_number": "RPR-00027",
           "description": "C Cover 15\" Austria Germany Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70981"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00028",
           "description": "C Cover 15\" France Platinum",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70982"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPR-00029",
@@ -3817,50 +3758,42 @@
         {
           "part_number": "RPQ-00071",
           "description": "C Cover 13.5\" Japan Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70956"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00072",
           "description": "C Cover 13.5\" UK/Ireland Only Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70957"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00075",
           "description": "C Cover 13.5\" Switz/Lux Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70960"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00073",
           "description": "C Cover 13.5\" Austria Germany Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70958"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00074",
           "description": "C Cover 13.5\" France Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70959"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00070",
           "description": "C Cover 13.5” French Canadian Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70955"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00080",
           "description": "C Cover 13.5” AMER/ASIA Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70962"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "RPQ-00076",
           "description": "C Cover 13.5” Taiwan Ice Blue Fabric",
-          "category": "C-cover Keyboard Assembly (Metal or Fabric)",
-          "substitute": "EP2-70961"
+          "category": "C-cover Keyboard Assembly (Metal or Fabric)"
         },
         {
           "part_number": "CII-00001",
@@ -3940,50 +3873,49 @@
         {
           "part_number": "RPN-00001",
           "description": "A/B Cover13.5\" Black",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-70916"
+          "category": "AB-cover Display Assembly"
         },
         {
           "part_number": "CIB-00005",
           "description": "A/B Cover13.5\" Cobalt Blue",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-70917"
+          "category": "AB-cover Display Assembly"
         },
         {
           "part_number": "CIB-00002",
           "description": "A/B Cover13.5\" Platinum",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-69996"
+          "category": "AB-cover Display Assembly"
         },
         {
           "part_number": "CIB-00004",
           "description": "A/B Cover13.5\" Sandstone",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-69997"
+          "category": "AB-cover Display Assembly"
         },
         {
           "part_number": "CIC-00001",
           "description": "A/B Cover 15\" Black",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-70918"
+          "category": "AB-cover Display Assembly"
         },
         {
           "part_number": "CIC-00002",
           "description": "A/B Cover 15\" Platinum",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-70919"
+          "category": "AB-cover Display Assembly"
         },
         {
           "part_number": "CIB-00003",
           "description": "A/B Cover13.5\" Ice Blue",
-          "category": "AB-cover Display Assembly",
-          "substitute": "EP2-69998"
+          "category": "AB-cover Display Assembly"
         }
       ]
     },
     {
       "name": "Surface Laptop Studio 2",
       "parts": [
+        {
+          "part_number": "Part No.",
+          "description": "Component",
+          "category": "",
+          "substitute": "Substitute SKU"
+        },
         {
           "part_number": "Z6F-00001",
           "description": "Platinum",
@@ -4236,14 +4168,12 @@
         {
           "part_number": "CJI-00001",
           "description": "Feet Platinum",
-          "category": "Non-Skid Feet",
-          "substitute": "CK1-00001"
+          "category": "Non-Skid Feet"
         },
         {
           "part_number": "CIZ-00001",
           "description": "Cosmetic Plate Platinum",
-          "category": "Cosmetic Plate",
-          "substitute": "I8I-00001"
+          "category": "Cosmetic Plate"
         },
         {
           "part_number": "CJ1-00001",
@@ -4254,8 +4184,7 @@
         {
           "part_number": "CJ1-00002",
           "description": "D-Bucket + Battery AMER",
-          "category": "D-Bucket + Battery",
-          "substitute": "I8K-00002"
+          "category": "D-Bucket + Battery"
         },
         {
           "part_number": "CIT-00001",
@@ -4314,8 +4243,7 @@
         {
           "part_number": "CIU-00006",
           "description": "C Cover Platinum English WW",
-          "category": "C-cover Keyboard Assembly",
-          "substitute": "I87-00005"
+          "category": "C-cover Keyboard Assembly"
         },
         {
           "part_number": "CIU-00007",
@@ -4332,20 +4260,17 @@
         {
           "part_number": "CIU-00009",
           "description": "C Cover Platinum Canada",
-          "category": "C-cover Keyboard Assembly",
-          "substitute": "I87-00008"
+          "category": "C-cover Keyboard Assembly"
         },
         {
           "part_number": "CIU-00010",
           "description": "C Cover Platinum French",
-          "category": "C-cover Keyboard Assembly",
-          "substitute": "I87-00009"
+          "category": "C-cover Keyboard Assembly"
         },
         {
           "part_number": "CIU-00011",
           "description": "C Cover Platinum German",
-          "category": "C-cover Keyboard Assembly",
-          "substitute": "I87-00010"
+          "category": "C-cover Keyboard Assembly"
         },
         {
           "part_number": "CIU-00012",
@@ -4380,8 +4305,7 @@
         {
           "part_number": "CIU-00001",
           "description": "C Cover Platinum EngBrit WW",
-          "category": "C-cover Keyboard Assembly",
-          "substitute": "I87-00016"
+          "category": "C-cover Keyboard Assembly"
         },
         {
           "part_number": "CIU-00017",
@@ -4904,452 +4828,477 @@
         {
           "part_number": "N1R-00001",
           "description": "Battleship (Green) Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "N1V-00001"
+          "category": "",
+          "substitute": "N1R-00001"
         },
         {
           "part_number": "N1R-00002",
           "description": "Ice Blue Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "N1V-00002"
+          "category": "",
+          "substitute": "N1R-00002"
         },
         {
           "part_number": "N1R-00003",
           "description": "Platinum Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "N1V-00003"
+          "category": "",
+          "substitute": "N1R-00003"
         },
         {
           "part_number": "N1R-00004",
           "description": "Sandstone Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "N1V-00004"
+          "category": "",
+          "substitute": "N1R-00004"
         },
         {
           "part_number": "N1Q-00001",
           "description": "Battleship (Green) Surflink",
-          "category": "Surflink Assembly",
-          "substitute": "EP2-69159"
+          "category": "",
+          "substitute": "N1Q-00001"
         },
         {
           "part_number": "N1Q-00002",
           "description": "Ice Blue Surflink",
-          "category": "Surflink Assembly",
-          "substitute": "EP2-69160"
+          "category": "",
+          "substitute": "N1Q-00002"
         },
         {
           "part_number": "N1Q-00003",
           "description": "Platinum Surflink",
-          "category": "Surflink Assembly",
-          "substitute": "EP2-69161"
+          "category": "",
+          "substitute": "N1Q-00003"
         },
         {
           "part_number": "N1Q-00004",
           "description": "Sandstone Surflink",
-          "category": "Surflink Assembly",
-          "substitute": "EP2-69162"
+          "category": "",
+          "substitute": "N1Q-00004"
         },
         {
           "part_number": "N3C-00001",
           "description": "Battery",
-          "category": "Battery",
-          "substitute": "N3I-00001"
+          "category": "",
+          "substitute": "N3C-00001"
         },
         {
           "part_number": "N1Y-00001",
           "description": "rSSD 128GB",
-          "category": "Removable Solid-State Drive (rSSD). Note: rSSD size must be same as original",
-          "substitute": "EP2-70101"
+          "category": "",
+          "substitute": "N1Y-00001"
         },
         {
           "part_number": "N1Z-00001",
           "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (rSSD). Note: rSSD size must be same as original",
-          "substitute": "EP2-70100"
+          "category": "",
+          "substitute": "N1Z-00001"
         },
         {
           "part_number": "N1T-00001",
           "description": "Battleship (Green) 105 French with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70040"
+          "category": "",
+          "substitute": "N1T-00001"
         },
         {
           "part_number": "N1T-00002",
           "description": "Battleship (Green) 104 Traditional Chinese with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70041"
+          "category": "",
+          "substitute": "N1T-00002"
         },
         {
           "part_number": "N1T-00003",
           "description": "Battleship (Green) 105 Austria/Germany with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70042"
+          "category": "",
+          "substitute": "N1T-00003"
         },
         {
           "part_number": "N1T-00004",
           "description": "Battleship (Green) 105 Canadian, Bilingual with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70043"
+          "category": "",
+          "substitute": "N1T-00004"
         },
         {
           "part_number": "N1T-00005",
           "description": "Battleship (Green) 109 Japan with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70044"
+          "category": "",
+          "substitute": "N1T-00005"
         },
         {
           "part_number": "N1T-00006",
           "description": "Battleship (Green) 104 English, US with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70045"
+          "category": "",
+          "substitute": "N1T-00006"
         },
         {
           "part_number": "N1T-00007",
           "description": "Battleship (Green) 105 Switzerland, Luxembourg with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70046"
+          "category": "",
+          "substitute": "N1T-00007"
         },
         {
           "part_number": "N1T-00008",
           "description": "Battleship (Green) 105 English, UK Ireland with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70047"
+          "category": "",
+          "substitute": "N1T-00008"
         },
         {
-          "part_number": "N1T-00009",
+          "part_number": "N1T-00009 (ZNG-00009)",
           "description": "Ice Blue 105 French with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70048"
+          "category": "",
+          "substitute": "N1T-00009 (ZNG-00009)"
         },
         {
-          "part_number": "N1T-00010",
+          "part_number": "N1T-00010 (ZNG-00010)",
           "description": "Ice Blue 104 Traditional Chinese with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70049"
+          "category": "",
+          "substitute": "N1T-00010 (ZNG-00010)"
         },
         {
-          "part_number": "N1T-00011",
+          "part_number": "N1T-00011 (ZNG-00011)",
           "description": "Ice Blue 105 Austria/Germany with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70050"
+          "category": "",
+          "substitute": "N1T-00011 (ZNG-00011)"
         },
         {
-          "part_number": "N1T-00012",
+          "part_number": "N1T-00012 (ZNG-00012)",
           "description": "Ice Blue 105 Canadian, Bilingual with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70051"
+          "category": "",
+          "substitute": "N1T-00012 (ZNG-00012)"
         },
         {
-          "part_number": "N1T-00013",
+          "part_number": "N1T-00013 (ZNG-00013)",
           "description": "Ice Blue 109 Japan with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70052"
+          "category": "",
+          "substitute": "N1T-00013 (ZNG-00013)"
         },
         {
-          "part_number": "N1T-00014",
+          "part_number": "N1T-00014 (ZNG-00014)",
           "description": "Ice Blue 104 English, US with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70053"
+          "category": "",
+          "substitute": "N1T-00014 (ZNG-00014)"
         },
         {
-          "part_number": "N1T-00015",
+          "part_number": "N1T-00015 (ZNG-00015)",
           "description": "Ice Blue 105 Switzerland, Luxembourg with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70054"
+          "category": "",
+          "substitute": "N1T-00015 (ZNG-00015)"
         },
         {
-          "part_number": "N1T-00016",
+          "part_number": "N1T-00016 (ZNG-00016)",
           "description": "Ice Blue 105 English, UK Ireland with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70055"
+          "category": "",
+          "substitute": "N1T-00016 (ZNG-00016)"
         },
         {
-          "part_number": "N1T-00017",
+          "part_number": "N1T-00017 (ZNG-00017)",
           "description": "Platinum 105 Spanish, European with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70056"
+          "category": "",
+          "substitute": "N1T-00017 (ZNG-00017)"
         },
         {
-          "part_number": "N1T-00018",
+          "part_number": "N1T-00018 (ZNG-00018)",
           "description": "Platinum 104 English, US with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70057"
+          "category": "",
+          "substitute": "N1T-00018 (ZNG-00018)"
         },
         {
-          "part_number": "N1T-00019",
+          "part_number": "N1T-00019 (ZNG-00019)",
           "description": "Platinum 105 Nordic Denmark, Finland, Norway, Sweden with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70058"
+          "category": "",
+          "substitute": "N1T-00019 (ZNG-00019)"
         },
         {
-          "part_number": "N1T-00020",
+          "part_number": "N1T-00020 (ZNG-00042)",
           "description": "Platinum 104 English, International Netherlands with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70059"
+          "category": "",
+          "substitute": "N1T-00020 (ZNG-00042)"
         },
         {
-          "part_number": "N1T-00021",
+          "part_number": "N1T-00021 (ZNG-00020)",
           "description": "Platinum 105 Italy with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70060"
+          "category": "",
+          "substitute": "N1T-00021 (ZNG-00020)"
         },
         {
-          "part_number": "N1T-00022",
+          "part_number": "N1T-00022 (ZNG-00021)",
           "description": "Platinum 105 Austria/Germany with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70061"
+          "category": "",
+          "substitute": "N1T-00022 (ZNG-00021)"
         },
         {
-          "part_number": "N1T-00023",
+          "part_number": "N1T-00023 (ZNG-00022)",
           "description": "Platinum 104 Traditional Chinese with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70062"
+          "category": "",
+          "substitute": "N1T-00023 (ZNG-00022)"
         },
         {
-          "part_number": "N1T-00024",
+          "part_number": "N1T-00024 (ZNG-00023)",
           "description": "Platinum 106 Korea with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70063"
+          "category": "",
+          "substitute": "N1T-00024 (ZNG-00023)"
         },
         {
-          "part_number": "N1T-00025",
+          "part_number": "N1T-00025 (ZNG-00024)",
           "description": "Platinum 105 Switzerland, Luxembourg with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70064"
+          "category": "",
+          "substitute": "N1T-00025 (ZNG-00024)"
         },
         {
-          "part_number": "N1T-00026",
+          "part_number": "N1T-00026 (ZNG-00025)",
           "description": "Platinum 105 French with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70065"
+          "category": "",
+          "substitute": "N1T-00026 (ZNG-00025)"
         },
         {
-          "part_number": "N1T-00027",
+          "part_number": "N1T-00027 (ZNG-00026)",
           "description": "Platinum 105 English, UK Ireland with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70066"
+          "category": "",
+          "substitute": "N1T-00027 (ZNG-00026)"
         },
         {
-          "part_number": "N1T-00028",
+          "part_number": "N1T-00028 (ZNG-00027)",
           "description": "Platinum 104 Arabic with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70067"
+          "category": "",
+          "substitute": "N1T-00028 (ZNG-00027)"
         },
         {
-          "part_number": "N1T-00029",
+          "part_number": "N1T-00029 (ZNG-00028)",
           "description": "Platinum 109 Japan with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70068"
+          "category": "",
+          "substitute": "N1T-00029 (ZNG-00028)"
         },
         {
-          "part_number": "N1T-00030",
+          "part_number": "N1T-00030 (ZNG-00029)",
           "description": "Platinum 105 Spanish, Latin American with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70069"
+          "category": "",
+          "substitute": "N1T-00030 (ZNG-00029)"
         },
         {
-          "part_number": "N1T-00031",
+          "part_number": "N1T-00031 (ZNG-00030)",
           "description": "Platinum 105 Canadian, Bilingual with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70070"
+          "category": "",
+          "substitute": "N1T-00031 (ZNG-00030)"
         },
         {
-          "part_number": "N1T-00032",
+          "part_number": "N1T-00032 (ZNG-00031)",
           "description": "Platinum 105 Portuguese with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70071"
+          "category": "",
+          "substitute": "N1T-00032 (ZNG-00031)"
         },
         {
-          "part_number": "N1T-00033",
+          "part_number": "N1T-00033 (ZNG-00032)",
           "description": "Platinum 105 Belgium AZERTY with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70072"
+          "category": "",
+          "substitute": "N1T-00033 (ZNG-00032)"
         },
         {
-          "part_number": "N1T-00034",
+          "part_number": "N1T-00034 (ZNG-00033)",
           "description": "Platinum 104 Thai with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70073"
+          "category": "",
+          "substitute": "N1T-00034 (ZNG-00033)"
         },
         {
-          "part_number": "N1T-00035",
+          "part_number": "N1T-00035 (ZTV-00018)",
           "description": "Platinum 104 English, US",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70074"
+          "category": "",
+          "substitute": "N1T-00035 (ZTV-00018)"
         },
         {
-          "part_number": "N1T-00036",
+          "part_number": "N1T-00036 (ZTV-00030)",
           "description": "Platinum 105 Canadian, Bilingual",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70075"
+          "category": "",
+          "substitute": "N1T-00036 (ZTV-00030)"
         },
         {
-          "part_number": "N1T-00037",
+          "part_number": "N1T-00037 (ZTV-00021)",
           "description": "Platinum 105 Austria/Germany",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70076"
+          "category": "",
+          "substitute": "N1T-00037 (ZTV-00021)"
         },
         {
-          "part_number": "N1T-00038",
+          "part_number": "N1T-00038 (ZTV-00027)",
           "description": "Platinum 104 Arabic",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70077"
+          "category": "",
+          "substitute": "N1T-00038 (ZTV-00027)"
         },
         {
-          "part_number": "N1T-00039",
+          "part_number": "N1T-00039 (ZTV-00017)",
           "description": "Platinum 105 Spanish, Latin American",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70078"
+          "category": "",
+          "substitute": "N1T-00039 (ZTV-00017)"
         },
         {
-          "part_number": "N1T-00040",
+          "part_number": "N1T-00040 (ZTV-00024)",
           "description": "Platinum 105 Switzerland, Luxembourg",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70079"
+          "category": "",
+          "substitute": "N1T-00040 (ZTV-00024)"
         },
         {
-          "part_number": "N1T-00041",
+          "part_number": "N1T-00041 (ZTV-00022)",
           "description": "Platinum 104 Traditional Chinese",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70080"
+          "category": "",
+          "substitute": "N1T-00041 (ZTV-00022)"
         },
         {
-          "part_number": "N1T-00042",
+          "part_number": "N1T-00042 (ZTV-00042)",
           "description": "Platinum 104 English, International Netherlands",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70081"
+          "category": "",
+          "substitute": "N1T-00042 (ZTV-00042)"
         },
         {
-          "part_number": "N1T-00043",
+          "part_number": "N1T-00043 (ZTV-00029)",
           "description": "Platinum 105 Spanish, European",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70082"
+          "category": "",
+          "substitute": "N1T-00043 (ZTV-00029)"
         },
         {
-          "part_number": "N1T-00044",
+          "part_number": "N1T-00044 (ZTV-00026)",
           "description": "Platinum 105 English, UK Ireland",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70083"
+          "category": "",
+          "substitute": "N1T-00044 (ZTV-00026)"
         },
         {
-          "part_number": "N1T-00045",
+          "part_number": "N1T-00045 (ZTV-00032)",
           "description": "Platinum 105 Belgium AZERTY",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70084"
+          "category": "",
+          "substitute": "N1T-00045 (ZTV-00032)"
         },
         {
-          "part_number": "N1T-00046",
+          "part_number": "N1T-00046 (ZTV-00019)",
           "description": "Platinum 105 Nordic Denmark, Finland, Norway, Sweden",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70085"
+          "category": "",
+          "substitute": "N1T-00046 (ZTV-00019)"
         },
         {
-          "part_number": "N1T-00047",
+          "part_number": "N1T-00047 (ZTV-00031)",
           "description": "Platinum 105 Portuguese",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70086"
+          "category": "",
+          "substitute": "N1T-00047 (ZTV-00031)"
         },
         {
-          "part_number": "N1T-00048",
+          "part_number": "N1T-00048 (ZTV-00028)",
           "description": "Platinum 109 Japan",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70087"
+          "category": "",
+          "substitute": "N1T-00048 (ZTV-00028)"
         },
         {
-          "part_number": "N1T-00049",
+          "part_number": "N1T-00049 (ZTV-00025)",
           "description": "Platinum 105 French",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70088"
+          "category": "",
+          "substitute": "N1T-00049 (ZTV-00025)"
         },
         {
-          "part_number": "N1T-00050",
+          "part_number": "N1T-00050 (ZTV-00023)",
           "description": "Platinum 106 Korea",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70089"
+          "category": "",
+          "substitute": "N1T-00050 (ZTV-00023)"
         },
         {
-          "part_number": "N1T-00051",
+          "part_number": "N1T-00051 (ZTV-00020)",
           "description": "Platinum 105 Italy",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70090"
+          "category": "",
+          "substitute": "N1T-00051 (ZTV-00020)"
         },
         {
-          "part_number": "N1T-00052",
+          "part_number": "N1T-00052 (ZTV-00033)",
           "description": "Platinum 104 Thai",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70091"
+          "category": "",
+          "substitute": "N1T-00052 (ZTV-00033)"
         },
         {
-          "part_number": "N1T-00053",
+          "part_number": "N1T-00053 (ZNG-00034)",
           "description": "Sandstone 105 French with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70092"
+          "category": "",
+          "substitute": "N1T-00053 (ZNG-00034)"
         },
         {
-          "part_number": "N1T-00054",
+          "part_number": "N1T-00054 (ZNG-00035)",
           "description": "Sandstone 104 Traditional Chinese with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70093"
+          "category": "",
+          "substitute": "N1T-00054 (ZNG-00035)"
         },
         {
-          "part_number": "N1T-00055",
+          "part_number": "N1T-00055 (ZNG-00036)",
           "description": "Sandstone 105 Austria/Germany with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70094"
+          "category": "",
+          "substitute": "N1T-00055 (ZNG-00036)"
         },
         {
-          "part_number": "N1T-00056",
+          "part_number": "N1T-00056 (ZNG-00037)",
           "description": "Sandstone 105 Canadian, Bilingual with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70095"
+          "category": "",
+          "substitute": "N1T-00056 (ZNG-00037)"
         },
         {
-          "part_number": "N1T-00057",
+          "part_number": "N1T-00057 (ZNG-00038)",
           "description": "Sandstone 109 Japan with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70096"
+          "category": "",
+          "substitute": "N1T-00057 (ZNG-00038)"
         },
         {
-          "part_number": "N1T-00058",
+          "part_number": "N1T-00058 (ZNG-00039)",
           "description": "Sandstone 104 English, US with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70097"
+          "category": "",
+          "substitute": "N1T-00058 (ZNG-00039)"
         },
         {
-          "part_number": "N1T-00059",
+          "part_number": "N1T-00059 (ZNG-00040)",
           "description": "Sandstone 105 Switzerland, Luxembourg with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70098"
+          "category": "",
+          "substitute": "N1T-00059 (ZNG-00040)"
         },
         {
-          "part_number": "ZNG-00041",
+          "part_number": "N1X-00060",
           "description": "Sandstone 105 English, UK Ireland with Fingerprint Reader",
-          "category": "C-Cover Keyboard Assembly",
-          "substitute": "EP2-70099"
+          "category": "",
+          "substitute": "(ZNG-00041)"
         },
         {
           "part_number": "N1S-00001",
           "description": "Battleship (Green) AB-Cover",
-          "category": "AB-Cover Display Assembly",
-          "substitute": "EP2-69155"
+          "category": "",
+          "substitute": "N1S-00001"
         },
         {
           "part_number": "N1S-00002",
           "description": "Ice Blue AB-Cover",
-          "category": "AB-Cover Display Assembly",
-          "substitute": "EP2-69156"
+          "category": "",
+          "substitute": "N1S-00002"
         },
         {
           "part_number": "N1S-00003",
           "description": "Platinum AB-Cover",
-          "category": "AB-Cover Display Assembly",
-          "substitute": "EP2-69157"
+          "category": "",
+          "substitute": "N1S-00003"
         },
         {
           "part_number": "N1S-00004",
           "description": "Sandstone AB-Cover",
-          "category": "AB-Cover Display Assembly",
-          "substitute": "EP2-69158"
+          "category": "",
+          "substitute": "N1S-00004"
+        },
+        {
+          "part_number": "MM16030I130",
+          "description": "SCREW M1.6x3.0",
+          "category": ""
+        },
+        {
+          "part_number": "MM20045I080",
+          "description": "SCREW M2.0x4.5",
+          "category": ""
+        },
+        {
+          "part_number": "MM20048I000",
+          "description": "SCREW M2.0x4.8",
+          "category": ""
+        },
+        {
+          "part_number": "MS20055I430",
+          "description": "SCREW M2.0x5.5",
+          "category": ""
+        },
+        {
+          "part_number": "MM16035I040",
+          "description": "SCREW M1.6x3.5",
+          "category": ""
         }
       ]
     },
@@ -5363,8 +5312,7 @@
         {
           "part_number": "ILH-00001",
           "description": "Non-Skid Feet",
-          "category": "Non-Skid Feet",
-          "substitute": "IL8-00001"
+          "category": ""
         },
         {
           "part_number": "ILA-00001",
@@ -5447,104 +5395,114 @@
         {
           "part_number": "ILB-00001",
           "description": "Battery",
-          "category": "Battery",
-          "substitute": "IL3-00001"
+          "category": "C-Cover Keyboard Assembly (includes touch pad)"
         },
         {
           "part_number": "ILF-00001",
           "description": "WiFi Module",
-          "category": "WiFi Module",
+          "category": "C-Cover Keyboard Assembly (includes touch pad)",
           "substitute": "EP2-70446"
         },
         {
           "part_number": "ILD-00001",
           "description": "Speakers",
-          "category": "Speakers",
+          "category": "C-Cover Keyboard Assembly (includes touch pad)",
           "substitute": "EP2-70447"
         },
         {
           "part_number": "IL9-00001",
           "description": "AB-Cover Display Assembly",
-          "category": "AB-Cover Display Assembly",
+          "category": "C-Cover Keyboard Assembly (includes touch pad)",
           "substitute": "EP2-70432"
         },
         {
           "part_number": "ILG-00001",
           "description": "D-Bucket (Base Bucket)",
-          "category": "D-Bucket (Base Bucket)",
+          "category": "C-Cover Keyboard Assembly (includes touch pad)",
           "substitute": "EP2-70448"
         },
         {
           "part_number": "ILC-00001",
           "description": "2 core CPU / 4GB RAM / 64GB Storage, US / Canada",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)",
           "substitute": "EP2-70429"
         },
         {
           "part_number": "ILC-00002",
           "description": "4 core CPU / 8GB RAM / 128GB Storage, US / Canada",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)",
           "substitute": "EP2-70430"
         },
         {
           "part_number": "ILC-00003",
           "description": "2 core CPU / 4GB RAM / 64GB Storage, UK",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)",
           "substitute": "EP2-70431"
         },
         {
           "part_number": "ILC-00004",
           "description": "4 core CPU / 8GB RAM / 128GB Storage, UK",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
-          "substitute": "IL4-00004"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "ILC-00005",
           "description": "2 core CPU / 4GB RAM / 64GB Storage, Japan",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
-          "substitute": "IL4-00005"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "ILC-00006",
           "description": "4 core CPU / 8GB RAM / 128GB Storage, Japan",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
-          "substitute": "IL4-00006"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "ILC-00007",
           "description": "2 core/ 4GB RAM / 64GB Storage, Australia / New Zealand",
-          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as > original)",
-          "substitute": "IL4-00007"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "TBL-00001",
           "description": "Power Port",
-          "category": "Power Port",
-          "substitute": "TBM-00001"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "CBU-00017",
           "description": "PSU US/Canada",
-          "category": "Power Port",
-          "substitute": "CBU-00017"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "CBU-00018",
           "description": "PSU United Kingdom",
-          "category": "Power Port",
-          "substitute": "CBU-00018"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "CBU-00019",
           "description": "PSU Japan",
-          "category": "Power Port",
-          "substitute": "CBU-00019"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
         },
         {
           "part_number": "CBU-00020",
           "description": "PSU Australia / New Zealand",
-          "category": "Power Port",
-          "substitute": "CBU-00020"
+          "category": "Motherboard (PCBA) (NOTE: PCBA replacement must be same as &gt; original)"
+        },
+        {
+          "part_number": "MS20025I070",
+          "description": "SCREW M2.0*2.5-I (BUWZN) (NYLON PATCH) IRON",
+          "category": ""
+        },
+        {
+          "part_number": "MS25040I060",
+          "description": "SCREW M2.5*4.0-I (BUWZN) (NYLON PATCH) IRON",
+          "category": ""
+        },
+        {
+          "part_number": "MS20015I220",
+          "description": "SCREW M2*1.5-I (NI) (NYLOK) IRON",
+          "category": ""
+        },
+        {
+          "part_number": "MM20065I030",
+          "description": "SCREW M2.0*6.5-I (MATT ZN, NY, D4.5T0.8) STL",
+          "category": ""
         }
       ]
     },
@@ -5780,13 +5738,13 @@
         },
         {
           "part_number": "40Q-00001",
-          "description": "Snapdragon X Plus/5G Consumer AOC",
+          "description": "Snapdragon X Plus/5G Consumer AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68364"
         },
         {
           "part_number": "EP2-04805",
-          "description": "Snapdragon X Plus/5G Consumer APAC",
+          "description": "Snapdragon X Plus/5G Consumer APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68368"
         },
@@ -5798,13 +5756,13 @@
         },
         {
           "part_number": "EP2-04803",
-          "description": "Snapdragon X Plus/5G Consumer EOC1",
+          "description": "Snapdragon X Plus/5G Consumer EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68376"
         },
         {
           "part_number": "EP2-04801",
-          "description": "Snapdragon X Plus/5G Consumer EOC2",
+          "description": "Snapdragon X Plus/5G Consumer EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68380"
         },
@@ -5816,13 +5774,13 @@
         },
         {
           "part_number": "F4O-00001",
-          "description": "Snapdragon X Plus/5G Commercial AOC",
+          "description": "Snapdragon X Plus/5G Commercial AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68367"
         },
         {
           "part_number": "EP2-04813",
-          "description": "Snapdragon X Plus/5G Commercial APAC",
+          "description": "Snapdragon X Plus/5G Commercial APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68370"
         },
@@ -5834,13 +5792,13 @@
         },
         {
           "part_number": "EP2-04811",
-          "description": "Snapdragon X Plus/5G Commercial EOC1",
+          "description": "Snapdragon X Plus/5G Commercial EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68378"
         },
         {
           "part_number": "EP2-04809",
-          "description": "Snapdragon X Plus/5G Commercial EOC2",
+          "description": "Snapdragon X Plus/5G Commercial EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68382"
         },
@@ -5852,13 +5810,13 @@
         },
         {
           "part_number": "40R-00001",
-          "description": "Snapdragon X Elite/5G Consumer AOC",
+          "description": "Snapdragon X Elite/5G Consumer AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68365"
         },
         {
           "part_number": "EP2-04806",
-          "description": "Snapdragon X Elite/5G Consumer APAC",
+          "description": "Snapdragon X Elite/5G Consumer APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68369"
         },
@@ -5870,13 +5828,13 @@
         },
         {
           "part_number": "EP2-04804",
-          "description": "Snapdragon X Elite/5G Consumer EOC1",
+          "description": "Snapdragon X Elite/5G Consumer EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68377"
         },
         {
           "part_number": "EP2-04802",
-          "description": "Snapdragon X Elite/5G Consumer EOC2",
+          "description": "Snapdragon X Elite/5G Consumer EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68381"
         },
@@ -5888,13 +5846,13 @@
         },
         {
           "part_number": "F7O-00001",
-          "description": "Snapdragon X Elite/5G Commercial AOC",
+          "description": "Snapdragon X Elite/5G Commercial AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68366"
         },
         {
           "part_number": "EP2-04814",
-          "description": "Snapdragon X Elite/5G Commercial APAC",
+          "description": "Snapdragon X Elite/5G Commercial APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68371"
         },
@@ -5906,13 +5864,13 @@
         },
         {
           "part_number": "EP2-04812",
-          "description": "Snapdragon X Elite/5G Commercial EOC1",
+          "description": "Snapdragon X Elite/5G Commercial EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68379"
         },
         {
           "part_number": "EP2-04810",
-          "description": "Snapdragon X Elite/5G Commercial EOC2",
+          "description": "Snapdragon X Elite/5G Commercial EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-68383"
         },
@@ -5957,114 +5915,114 @@
         },
         {
           "part_number": "EP2-18251",
-          "description": "Intel Core Ultra 5 16GB AOC",
+          "description": "Intel Core Ultra 5 16GB AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69164"
         },
         {
           "part_number": "EP2-18256",
-          "description": "Intel Core Ultra 7 16GB AOC",
+          "description": "Intel Core Ultra 7 16GB AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69169"
         },
         {
           "part_number": "EP2-18261",
-          "description": "Intel Core Ultra 7 32GB AOC",
+          "description": "Intel Core Ultra 7 32GB AOC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69174"
         },
         {
           "part_number": "EP2-29437",
-          "description": "Intel Core Ultra 5 32GB AOC",
+          "description": "Intel Core Ultra 5 32GB AOC*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-18252",
-          "description": "Intel Core Ultra 5 16GB EOC1",
+          "description": "Intel Core Ultra 5 16GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69165"
         },
         {
           "part_number": "EP2-18253",
-          "description": "Intel Core Ultra 5 16GB EOC2",
+          "description": "Intel Core Ultra 5 16GB EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69166"
         },
         {
           "part_number": "EP2-18254",
-          "description": "Intel Core Ultra 5 16GB APAC",
+          "description": "Intel Core Ultra 5 16GB APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69167"
         },
         {
           "part_number": "EP2-18257",
-          "description": "Intel Core Ultra 7 16GB EOC1",
+          "description": "Intel Core Ultra 7 16GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69170"
         },
         {
           "part_number": "EP2-18258",
-          "description": "Intel Core Ultra 7 16GB EOC2",
+          "description": "Intel Core Ultra 7 16GB EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69171"
         },
         {
           "part_number": "EP2-18259",
-          "description": "Intel Core Ultra 7 16GB APAC",
+          "description": "Intel Core Ultra 7 16GB APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69172"
         },
         {
           "part_number": "EP2-18262",
-          "description": "Intel Core Ultra 7 32GB EOC1",
+          "description": "Intel Core Ultra 7 32GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69175"
         },
         {
           "part_number": "EP2-18263",
-          "description": "Intel Core Ultra 7 32GB EOC2",
+          "description": "Intel Core Ultra 7 32GB EOC2*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69176"
         },
         {
           "part_number": "EP2-18264",
-          "description": "Intel Core Ultra 7 32GB APAC",
+          "description": "Intel Core Ultra 7 32GB APAC*",
           "category": "Motherboard (includes main processor and main memory)",
           "substitute": "EP2-69177"
         },
         {
           "part_number": "EP2-29428",
-          "description": "Intel Core Ultra 5 32GB APAC",
+          "description": "Intel Core Ultra 5 32GB APAC*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29431",
-          "description": "Intel Core Ultra 5 32GB EOC1",
+          "description": "Intel Core Ultra 5 32GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29434",
-          "description": "Intel Core Ultra 5 32GB EOC1",
+          "description": "Intel Core Ultra 5 32GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29429",
-          "description": "Intel Core Ultra 5 8GB APAC",
+          "description": "Intel Core Ultra 5 8GB APAC*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29432",
-          "description": "Intel Core Ultra 5 8GB EOC1",
+          "description": "Intel Core Ultra 5 8GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29435",
-          "description": "Intel Core Ultra 5 8GB EOC1",
+          "description": "Intel Core Ultra 5 8GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29438",
-          "description": "Intel Core Ultra 5 8GB AOC",
+          "description": "Intel Core Ultra 5 8GB AOC*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
@@ -6099,22 +6057,22 @@
         },
         {
           "part_number": "EP2-29430",
-          "description": "Intel Core Ultra 7 64GB APAC",
+          "description": "Intel Core Ultra 7 64GB APAC*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29433",
-          "description": "Intel Core Ultra 7 64GB EOC1",
+          "description": "Intel Core Ultra 7 64GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29436",
-          "description": "Intel Core Ultra 7 64GB EOC1",
+          "description": "Intel Core Ultra 7 64GB EOC1*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-29439",
-          "description": "Intel Core Ultra 7 64GB AOC",
+          "description": "Intel Core Ultra 7 64GB AOC*",
           "category": "Motherboard (includes main processor and main memory)"
         },
         {
@@ -7334,20 +7292,17 @@
         {
           "part_number": "TIV-00001",
           "description": "rSSD 128 GB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "TLI-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "TIW-00001",
           "description": "rSSD 256 GB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "TM1-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "TIX-00001",
           "description": "rSSD 512 GB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "TM6-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "TIP-00001",
@@ -7358,12 +7313,11 @@
         {
           "part_number": "TG1-00001",
           "description": "THM",
-          "category": "Thermal Module + Fan",
-          "substitute": "TL8-00001"
+          "category": "Thermal Module + Fan"
         },
         {
           "part_number": "TJB-00001",
-          "description": "Left & Right",
+          "description": "Left &amp; Right",
           "category": "Speakers",
           "substitute": "EP2-69832"
         },
@@ -7371,7 +7325,7 @@
           "part_number": "TJI-00001",
           "description": "Platinum",
           "category": "Power Button + Volume Buttons",
-          "substitute": "EP2-69825"
+          "substitute": "EP2-69825X"
         },
         {
           "part_number": "TJ1-00001",
@@ -7400,8 +7354,7 @@
         {
           "part_number": "WFP-00001",
           "description": "Battery",
-          "category": "Battery",
-          "substitute": "WIA-00001"
+          "category": "Battery"
         },
         {
           "part_number": "WFR-00001",
@@ -7489,26 +7442,22 @@
         {
           "part_number": "TGB-00001",
           "description": "rSSD 128 GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "TIC-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "TGI-00001",
           "description": "rSSD 256 GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "TID-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "TH1-00001",
           "description": "rSSD 512 GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "TIF-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "TH8-00001",
           "description": "rSSD 1 TB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "TIG-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "TF1-00001",
@@ -7519,8 +7468,7 @@
         {
           "part_number": "TG1-00001",
           "description": "THM",
-          "category": "Thermal Module + Fan",
-          "substitute": "TIA-00001"
+          "category": "Thermal Module + Fan"
         },
         {
           "part_number": "WG8-00001",
@@ -7585,8 +7533,7 @@
         {
           "part_number": "WFW-00001",
           "description": "Battery Worldwide",
-          "category": "Battery",
-          "substitute": "WGN-00001"
+          "category": "Battery"
         },
         {
           "part_number": "WGB-00001",
@@ -7722,26 +7669,22 @@
         {
           "part_number": "DDB-00001",
           "description": "rSSD 128GB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "DFB-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "DDI-00001",
           "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "DFI-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "DEB-00001",
           "description": "rSSD 512GB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "DGB-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "DEI-00001",
           "description": "rSSD 1TB",
-          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)",
-          "substitute": "DGI-00001"
+          "category": "Removable Solid-State Drive (NOTE:  rSSD size must be same as original)"
         },
         {
           "part_number": "DHB-00001",
@@ -7773,96 +7716,86 @@
         {
           "part_number": "RPS-00001",
           "description": "Black Kickstand",
-          "category": "Kickstand",
-          "substitute": "I5C-00004"
+          "category": "Kickstand"
         },
         {
           "part_number": "RPS-00002",
           "description": "Black Kickstand",
-          "category": "Kickstand",
-          "substitute": "I5C-00001"
+          "category": "Kickstand"
         },
         {
           "part_number": "RPS-00003",
           "description": "Platinum Kickstand",
-          "category": "Kickstand",
-          "substitute": "I5C-00002"
+          "category": "Kickstand"
         },
         {
           "part_number": "EM8-00001",
           "description": "Platinum Kickstand",
-          "category": "Kickstand",
-          "substitute": "I5C-00003"
+          "category": "Kickstand"
         },
         {
-          "part_number": "RPU-00001",
+          "part_number": "RPU-00001 (Min Order Qty 4)",
           "description": "Black SSD Door",
-          "category": "SSD Door",
-          "substitute": "I5D-00001"
+          "category": "SSD Door"
         },
         {
-          "part_number": "RPU-00002",
+          "part_number": "RPU-00002 (Min Order Qty 4)",
           "description": "Platinum SSD Door",
-          "category": "SSD Door",
-          "substitute": "I5D-00002"
+          "category": "SSD Door"
         },
         {
-          "part_number": "RPU-00006",
-          "description": "SSD Door",
-          "category": "SSD Door",
-          "substitute": "I5D-00002"
+          "part_number": "RPU-00006 (Min Order Qty 1)",
+          "description": "",
+          "category": "SSD Door"
         },
         {
           "part_number": "RPX-00001",
           "description": "rSSD 128GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LT-00004"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RPZ-00001",
           "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LV-00006"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RQG-00002",
           "description": "rSSD 512GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LX-00006"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RPZ-00004",
           "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LV-00005"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RQG-00004",
           "description": "rSSD 512GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LX-00005"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "EMB-00001",
           "description": "rSSD 128GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LT-00003"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "EMI-00001",
           "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LV-00004"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "EN1-00001",
           "description": "rSSD 512GB",
-          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)",
-          "substitute": "8LX-00004"
+          "category": "Removable Solid-State Drive (!NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RPM-00001",
           "description": "ProX TDM WW",
+          "category": "TDM"
+        },
+        {
+          "part_number": "I5Z-00001",
+          "description": "",
           "category": "TDM"
         }
       ]
@@ -7889,46 +7822,42 @@
           "substitute": "EP2-68229"
         },
         {
-          "part_number": "4KI-00002",
+          "part_number": "4KI-00002 (Min order Qty 4)",
           "description": "Black SSD Door",
           "category": "SSD Door",
           "substitute": "EP2-68223"
         },
         {
-          "part_number": "4KI-00001",
+          "part_number": "4KI-00001 (Min order Qty 4)",
           "description": "Platinum SSD Door",
           "category": "SSD Door",
           "substitute": "EP2-68224"
         },
         {
-          "part_number": "4KI-00001",
-          "description": "SSD Door",
+          "part_number": "4KI-00001 (Min order Qty 1)",
+          "description": "",
           "category": "SSD Door",
           "substitute": "EP2-68222"
         },
         {
           "part_number": "RPX-00004",
           "description": "rSSD 128GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "8LT-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RPZ-00005",
           "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "8LV-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RQG-00005",
           "description": "rSSD 512GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "8LX-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "RPY-00003",
           "description": "rSSD 1TB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)",
-          "substitute": "8LU-00001"
+          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
         },
         {
           "part_number": "4K8-00001",
@@ -7950,14 +7879,12 @@
         {
           "part_number": "RPT-00002",
           "description": "Black Kickstand",
-          "category": "Kickstand",
-          "substitute": "I5B-00002"
+          "category": ""
         },
         {
           "part_number": "RPT-00001",
           "description": "Platinum Kickstand",
-          "category": "Kickstand",
-          "substitute": "I5B-00001"
+          "category": ""
         }
       ]
     },
@@ -8055,14 +7982,12 @@
         {
           "part_number": "1RD-00001",
           "description": "Platinum Kickstand",
-          "category": "Kickstand",
-          "substitute": "I64-00001"
+          "category": "Kickstand"
         },
         {
           "part_number": "1RD-00002",
           "description": "Platinum Kickstand",
-          "category": "Kickstand",
-          "substitute": "I64-00002"
+          "category": "Kickstand"
         },
         {
           "part_number": "1RD-00003",
@@ -8072,26 +7997,22 @@
         {
           "part_number": "1RD-00009",
           "description": "Platinum Kickstand",
-          "category": "Kickstand",
-          "substitute": "I64-00003"
+          "category": "Kickstand"
         },
         {
           "part_number": "1RD-00007",
           "description": "Black Kickstand",
-          "category": "Kickstand",
-          "substitute": "I64-00004"
+          "category": "Kickstand"
         },
         {
           "part_number": "1RD-00008",
           "description": "Black Kickstand",
-          "category": "Kickstand",
-          "substitute": "I64-00005"
+          "category": "Kickstand"
         },
         {
           "part_number": "1RD-00010",
           "description": "Black Kickstand",
-          "category": "Kickstand",
-          "substitute": "I64-00006"
+          "category": "Kickstand"
         }
       ]
     },
@@ -8101,14 +8022,12 @@
         {
           "part_number": "VDI-00001",
           "description": "Black feet",
-          "category": "Feet",
-          "substitute": "VDB-00001"
+          "category": "Feet"
         },
         {
           "part_number": "VF8-00001",
           "description": "Thermal Module",
-          "category": "Thermal Module",
-          "substitute": "VF1-00001"
+          "category": "Thermal Module"
         },
         {
           "part_number": "VEI-00001",
@@ -8119,32 +8038,27 @@
         {
           "part_number": "VFI-00001",
           "description": "Motherboard",
-          "category": "Motherboard",
-          "substitute": "VFB-00001"
+          "category": "Motherboard"
         },
         {
           "part_number": "VFI-00002",
           "description": "Motherboard (POTW)",
-          "category": "Motherboard",
-          "substitute": "VFB-00002"
+          "category": "Motherboard"
         },
         {
           "part_number": "VFI-00003",
           "description": "Motherboard (NATZ)",
-          "category": "Motherboard",
-          "substitute": "VFB-00003"
+          "category": "Motherboard"
         },
         {
           "part_number": "VE8-00001",
           "description": "Platinum",
-          "category": "Display",
-          "substitute": "VE1-00001"
+          "category": "Display"
         },
         {
           "part_number": "VNI-00001",
           "description": "Power Supply",
-          "category": "PSU",
-          "substitute": "VNB-00001"
+          "category": "PSU"
         }
       ]
     }
