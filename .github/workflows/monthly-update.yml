@@ -31,8 +31,8 @@ jobs:
         id: build
         run: |
           echo "Building and validating..."
-          python scripts/build_and_validate.py scraped_data.json docs/index.html
-          EXIT_CODE=$?
+          python scripts/build_and_validate.py scraped_data.json docs/index.html || EXIT_CODE=$?
+          EXIT_CODE=${EXIT_CODE:-0}
           if [ $EXIT_CODE -eq 2 ]; then
             echo "warnings=true" >> $GITHUB_OUTPUT
             echo "⚠️ Validation warnings found — review the log above"
