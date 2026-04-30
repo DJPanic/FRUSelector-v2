@@ -72,8 +72,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "REPLACE_WITH_GITHUB_OWNER",
-      "repo": "REPLACE_WITH_REPO_NAME"
+      "owner": "DJPanic",
+      "repo": "FRUSelector-v2"
     }
   }
 }
