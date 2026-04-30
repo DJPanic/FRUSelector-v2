@@ -231,7 +231,18 @@ def build_data_and_catalog(scraped):
 
 
 def update_html(html_path, data_obj, catalog_out):
-    """Replace DATA and CATALOG in the HTML file."""
+    """Replace DATA and CATALOG in the HTML file.
+
+    Both are stored as single-line minified JSON assignments terminated by `};`.
+
+    This function is robust to two prior buggy states of the file:
+      1. Legacy multi-line DATA/CATALOG (indented JSON spread across many lines).
+      2. Files that had a single-line minified DATA followed by ORPHAN multi-line
+         JSON content left behind by a previous buggy line-by-line replacement.
+
+    In both cases we drop subsequent indented JSON-looking lines until we reach
+    the next top-level construct (a line at indentation 0 that is not just `};`).
+    """
     with open(html_path, "r", encoding="utf-8") as f:
         html = f.read()
 
@@ -242,17 +253,39 @@ def update_html(html_path, data_obj, catalog_out):
     new_lines = []
     replaced_data = False
     replaced_catalog = False
+    consume_orphan = False  # True while we are dropping leftover JSON lines
+
+    def looks_like_orphan_json(s: str) -> bool:
+        if s == "":
+            return True
+        if s.startswith((" ", "\t")):
+            return True
+        # Stand-alone closing braces left at column 0 are also orphan tails.
+        if s.rstrip() in ("};", "}", "];", "]", ",", ");"):
+            return True
+        return False
 
     for line in lines:
+        if consume_orphan:
+            if looks_like_orphan_json(line):
+                continue
+            consume_orphan = False  # fall through and process this line normally
+
         stripped = line.strip()
+
         if stripped.startswith("const DATA = ") and not replaced_data:
             new_lines.append(f"const DATA = {data_json};")
             replaced_data = True
-        elif stripped.startswith("const CATALOG = ") and not replaced_catalog:
+            consume_orphan = True
+            continue
+
+        if stripped.startswith("const CATALOG = ") and not replaced_catalog:
             new_lines.append(f"const CATALOG = {catalog_json};")
             replaced_catalog = True
-        else:
-            new_lines.append(line)
+            consume_orphan = True
+            continue
+
+        new_lines.append(line)
 
     if not replaced_data:
         print("ERROR: Could not find 'const DATA = ' in HTML!")
