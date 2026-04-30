@@ -1,4 +1,4 @@
-name: Monthly FRU Data Update
+name: Monthly FRU Data Update & Release
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update-fru-data:
@@ -74,6 +75,45 @@ jobs:
       - name: No changes detected
         if: steps.changes.outputs.changed != 'true'
         run: echo "✅ No data changes detected — HTML is already up to date"
+
+      - name: Set up Node.js
+        if: steps.changes.outputs.changed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        if: steps.changes.outputs.changed == 'true'
+        run: npm ci
+
+      - name: Build application
+        if: steps.changes.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Create Release with Artifacts
+        if: steps.changes.outputs.changed == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ github.run_number }}-${{ github.run_attempt }}
+          name: FRU Selector v2 - Monthly Release
+          body: |
+            ## Automated FRU Data Update & Build
+            
+            Updated FRU and SKU data from Microsoft Learn service guides.
+            - **Devices**: Updated Surface device configurations
+            - **Parts**: Latest FRU/ASP part numbers
+            - **Built**: ${{ github.event.head_commit.timestamp }}
+            
+            ### What's New
+            This is an automated monthly release that includes:
+            - Scraped data from Microsoft Learn service guides
+            - Rebuilt Electron application with latest part data
+            - Updated HTML reference guide
+          draft: false
+          prerelease: false
+          files: |
+            dist/**/*
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Clean up
         if: always()
