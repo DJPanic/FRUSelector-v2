@@ -1,7 +1,10 @@
 import { app, BrowserWindow, Menu } from 'electron';
 import * as path from 'path';
+import { initializeUpdater } from './updater';
 
-const isDev = process.env.NODE_ENV === 'development';
+// Use Electron's built-in packaging detection rather than NODE_ENV.
+// electron-builder does not set NODE_ENV, so the previous check was unreliable.
+const isDev = !app.isPackaged;
 
 let mainWindow: BrowserWindow | null = null;
 
@@ -16,9 +19,11 @@ function createWindow() {
     },
   });
 
+  // In production the React build is packaged into the app at build/index.html
+  // (one level above dist/main/ when packaged with electron-builder).
   const startUrl = isDev
     ? 'http://localhost:3000'
-    : `file://${path.join(__dirname, '../renderer/index.html')}`;
+    : `file://${path.join(__dirname, '../../build/index.html')}`;
 
   mainWindow.loadURL(startUrl);
 
@@ -27,7 +32,13 @@ function createWindow() {
   });
 }
 
-app.on('ready', createWindow);
+app.on('ready', () => {
+  createWindow();
+  // Initialize updater at launch
+  if (!isDev) {
+    initializeUpdater();
+  }
+});
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {

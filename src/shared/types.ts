@@ -46,6 +46,26 @@ export interface FRU {
   applicableSkus: string[];
 }
 
+export interface ScrapedPart {
+  part_number: string;
+  description: string;
+  category: string;
+  substitute?: string;
+}
+
+export interface ScrapedDevice {
+  name: string;
+  parts: ScrapedPart[];
+}
+
+export interface ScrapedData {
+  generatedAt: string;
+  source: string;
+  deviceCount: number;
+  partCount: number;
+  devices: ScrapedDevice[];
+}
+
 export interface DeviceConfiguration {
   familyId: string;
   modelId: string;

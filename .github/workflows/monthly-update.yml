@@ -5,21 +5,23 @@ on:
     # Run at midnight UTC on the 1st of every month
     - cron: '0 0 1 * *'
   workflow_dispatch:
-    # Allow manual triggering from the Actions tab
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
-  update-fru-data:
+  scrape-and-commit:
+    name: Scrape data & commit
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+      commit_sha: ${{ steps.commit.outputs.sha }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
@@ -29,92 +31,128 @@ jobs:
           python scripts/scrape_service_guides.py scraped_data.json
 
       - name: Build, validate, and update HTML
-        id: build
         run: |
           echo "Building and validating..."
           python scripts/build_and_validate.py scraped_data.json docs/index.html || EXIT_CODE=$?
           EXIT_CODE=${EXIT_CODE:-0}
           if [ $EXIT_CODE -eq 2 ]; then
-            echo "warnings=true" >> $GITHUB_OUTPUT
             echo "⚠️ Validation warnings found — review the log above"
           elif [ $EXIT_CODE -ne 0 ]; then
             echo "❌ Build failed!"
             exit 1
           fi
 
+      - name: Generate app data file consumed by the React/Electron build
+        run: |
+          python scripts/generate_app_data.py scraped_data.json src/shared/scraped-data.json
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet docs/index.html && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet docs/index.html src/shared/scraped-data.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push
+        id: commit
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           MONTH=$(date +"%B %Y")
           PARTS=$(python -c "
-          import json, re
-          with open('docs/index.html','r') as f: c=f.read()
-          m=re.search(r'const DATA\s*=\s*',c); s=m.end(); e=c.find(';\n',s)
-          d=json.loads(c[s:e])
-          print(f\"{len(d['devices'])} devices, {len(d['parts'])} parts\")
+          import json
+          with open('src/shared/scraped-data.json') as f: d=json.load(f)
+          print(f\"{d['deviceCount']} devices, {d['partCount']} parts\")
           ")
-          
-          git add docs/index.html
+
+          git add docs/index.html src/shared/scraped-data.json
           git commit -m "Monthly FRU data update — ${MONTH}
 
           Automated refresh from Microsoft Learn service guides.
           ${PARTS}
-          
+
           Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
-          
+
           git push
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: No changes detected
         if: steps.changes.outputs.changed != 'true'
-        run: echo "✅ No data changes detected — HTML is already up to date"
+        run: echo "✅ No data changes detected — HTML and app data are already up to date"
+
+      - name: Clean up temp files
+        if: always()
+        run: rm -f scraped_data.json
+
+  build-and-release:
+    name: Build Electron app & publish release
+    needs: scrape-and-commit
+    if: needs.scrape-and-commit.outputs.changed == 'true'
+    runs-on: windows-latest
+    steps:
+      - name: Checkout latest (post-commit)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.scrape-and-commit.outputs.commit_sha }}
 
       - name: Set up Node.js
-        if: steps.changes.outputs.changed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
 
       - name: Install dependencies
-        if: steps.changes.outputs.changed == 'true'
         run: npm ci
 
-      - name: Build application
-        if: steps.changes.outputs.changed == 'true'
-        run: npm run build
+      - name: Compute release tag
+        id: tag
+        shell: bash
+        run: |
+          DATE=$(date -u +"%Y.%m.%d")
+          SHORT_SHA=$(git rev-parse --short HEAD)
+          echo "tag=v${DATE}-${SHORT_SHA}" >> $GITHUB_OUTPUT
 
-      - name: Create Release with Artifacts
-        if: steps.changes.outputs.changed == 'true'
-        uses: softprops/action-gh-release@v1
+      - name: Build & package Electron app
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run dist
+
+      - name: Verify build artifacts
+        shell: bash
+        run: |
+          echo "Listing release/ folder:"
+          ls -la release/ || (echo "ERROR: release/ folder not found"; exit 1)
+          if ! ls release/*.exe 1>/dev/null 2>&1; then
+            echo "ERROR: no installer artifacts produced"
+            exit 1
+          fi
+
+      - name: Create GitHub Release with installer artifacts
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ github.run_number }}-${{ github.run_attempt }}
-          name: FRU Selector v2 - Monthly Release
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: FRU Selector ${{ steps.tag.outputs.tag }}
           body: |
             ## Automated FRU Data Update & Build
-            
-            Updated FRU and SKU data from Microsoft Learn service guides.
-            - **Devices**: Updated Surface device configurations
-            - **Parts**: Latest FRU/ASP part numbers
-            - **Built**: ${{ github.event.head_commit.timestamp }}
-            
-            ### What's New
-            This is an automated monthly release that includes:
-            - Scraped data from Microsoft Learn service guides
-            - Rebuilt Electron application with latest part data
-            - Updated HTML reference guide
+
+            Refreshed FRU/SKU data from Microsoft Learn service guides and
+            rebuilt the Surface FRU Selector Electron application.
+
+            **Source commit:** ${{ needs.scrape-and-commit.outputs.commit_sha }}
+
+            ### Downloads
+            - `*.exe` — NSIS installer (recommended)
+            - `*-portable.exe` — portable build (no install)
+
+            Existing installations will auto-update via electron-updater.
           draft: false
           prerelease: false
           files: |
-            dist/**/*
+            release/*.exe
+            release/*.blockmap
+            release/latest.yml
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Clean up
-        if: always()
-        run: rm -f scraped_data.json

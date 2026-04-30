@@ -11,6 +11,8 @@
     "build": "npm run build:main && npm run build:react",
     "build:react": "react-scripts build",
     "build:main": "tsc --project tsconfig.main.json",
+    "dist": "npm run build && electron-builder",
+    "dist:dir": "npm run build && electron-builder --dir",
     "dev": "concurrently \"npm run react-dev\" \"npm run main-dev\"",
     "react-dev": "react-scripts start",
     "main-dev": "wait-on http://localhost:3000 && tsc --project tsconfig.main.json --watch --preserveWatchOutput & electron .",
@@ -19,6 +21,8 @@
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
+    "electron-log": "^5.0.0",
+    "electron-updater": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -52,18 +56,24 @@
     "appId": "com.microsoft.fru-selector",
     "productName": "Surface FRU Selector",
     "files": [
-      "dist/**/*",
-      "node_modules/**/*",
+      "dist/main/**/*",
+      "build/**/*",
       "package.json"
     ],
     "directories": {
-      "buildResources": "public"
+      "buildResources": "public",
+      "output": "release"
     },
     "win": {
       "target": [
         "nsis",
         "portable"
       ]
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "REPLACE_WITH_GITHUB_OWNER",
+      "repo": "REPLACE_WITH_REPO_NAME"
     }
   }
 }
