@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-01T01:54:45.896400+00:00",
+  "generatedAt": "2026-06-01T02:34:36.256122+00:00",
   "source": "https://learn.microsoft.com/en-us/surface/service-guides",
   "deviceCount": 26,
-  "partCount": 1430,
+  "partCount": 1418,
   "devices": [
     {
       "name": "Surface Laptop 5G for Business",
@@ -1312,12 +1312,14 @@
         {
           "part_number": "EP2-07971",
           "description": "Elite 64GB – 13”",
-          "category": "Motherboard (includes main processor and main memory, and thermal module)"
+          "category": "Motherboard (includes main processor and main memory, and thermal module)",
+          "substitute": "EP2-73856"
         },
         {
           "part_number": "EP2-07972",
           "description": "Elite 64GB – 15”",
-          "category": "Motherboard (includes main processor and main memory, and thermal module)"
+          "category": "Motherboard (includes main processor and main memory, and thermal module)",
+          "substitute": "EP2-73857"
         },
         {
           "part_number": "D0P-00008",
@@ -1346,12 +1348,14 @@
         {
           "part_number": "EP2-00813",
           "description": "Dune – Arabic – 13”",
-          "category": "Keyboard Assembly (includes Trackpad)"
+          "category": "Keyboard Assembly (includes Trackpad)",
+          "substitute": "EP2-73225"
         },
         {
           "part_number": "EP2-00814",
           "description": "Sapphire – Arabic – 13”",
-          "category": "Keyboard Assembly (includes Trackpad)"
+          "category": "Keyboard Assembly (includes Trackpad)",
+          "substitute": "EP2-73226"
         },
         {
           "part_number": "D0P-00014",
@@ -3190,7 +3194,8 @@
         {
           "part_number": "U1M-00001",
           "description": "i5, 8GB RAM (Consumer)",
-          "category": "Motherboard (PCBA)"
+          "category": "Motherboard (PCBA)",
+          "substitute": "EP2-72928"
         },
         {
           "part_number": "U1M-00002",
@@ -3219,7 +3224,8 @@
         {
           "part_number": "U1M-00009",
           "description": "i5, 16GB RAM (Consumer)",
-          "category": "Motherboard (PCBA)"
+          "category": "Motherboard (PCBA)",
+          "substitute": "EP2-72929"
         },
         {
           "part_number": "U1M-00012",
@@ -3236,12 +3242,14 @@
         {
           "part_number": "U1M-00014",
           "description": "i7, 16GB RAM (Consumer)",
-          "category": "Motherboard (PCBA)"
+          "category": "Motherboard (PCBA)",
+          "substitute": "EP2-72930"
         },
         {
           "part_number": "U4B-00001",
           "description": "i7, 8GB RAM, (Consumer)",
-          "category": "Motherboard (PCBA)"
+          "category": "Motherboard (PCBA)",
+          "substitute": "EP2-72933"
         },
         {
           "part_number": "U4B-00002",
@@ -3270,12 +3278,14 @@
         {
           "part_number": "U4B-00009",
           "description": "i7, 16GB RAM (Consumer)",
-          "category": "Motherboard (PCBA)"
+          "category": "Motherboard (PCBA)",
+          "substitute": "EP2-72934"
         },
         {
           "part_number": "U4B-00012",
           "description": "i7, 32GB RAM (Consumer)",
-          "category": "Motherboard (PCBA)"
+          "category": "Motherboard (PCBA)",
+          "substitute": "EP2-72935"
         },
         {
           "part_number": "U4B-00013",
@@ -7806,76 +7816,7 @@
     },
     {
       "name": "Surface Pro 7+ for Business",
-      "parts": [
-        {
-          "part_number": "4KB-00002",
-          "description": "Black Kickstand Wi-Fi",
-          "category": "Kickstand",
-          "substitute": "EP2-68228"
-        },
-        {
-          "part_number": "4KB-00001",
-          "description": "Platinum Kickstand Wi-Fi",
-          "category": "Kickstand",
-          "substitute": "EP2-68227"
-        },
-        {
-          "part_number": "4KB-00003",
-          "description": "Platinum Kickstand LTE",
-          "category": "Kickstand",
-          "substitute": "EP2-68229"
-        },
-        {
-          "part_number": "4KI-00002 (Min order Qty 4)",
-          "description": "Black SSD Door",
-          "category": "SSD Door",
-          "substitute": "EP2-68223"
-        },
-        {
-          "part_number": "4KI-00001 (Min order Qty 4)",
-          "description": "Platinum SSD Door",
-          "category": "SSD Door",
-          "substitute": "EP2-68224"
-        },
-        {
-          "part_number": "4KI-00001 (Min order Qty 1)",
-          "description": "",
-          "category": "SSD Door",
-          "substitute": "EP2-68222"
-        },
-        {
-          "part_number": "RPX-00004",
-          "description": "rSSD 128GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
-        },
-        {
-          "part_number": "RPZ-00005",
-          "description": "rSSD 256GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
-        },
-        {
-          "part_number": "RQG-00005",
-          "description": "rSSD 512GB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
-        },
-        {
-          "part_number": "RPY-00003",
-          "description": "rSSD 1TB",
-          "category": "Removable Solid-State Drive (NOTE: rSSD size must be same as original)"
-        },
-        {
-          "part_number": "4K8-00001",
-          "description": "Pro 7 + TDM Wi-Fi",
-          "category": "TDM",
-          "substitute": "EP2-68233"
-        },
-        {
-          "part_number": "4K8-00002",
-          "description": "Pro 7 + TDM LTE",
-          "category": "TDM",
-          "substitute": "EP2-68234"
-        }
-      ]
+      "parts": []
     },
     {
       "name": "Surface Pro 7 Kickstand",
@@ -8042,27 +7983,32 @@
         {
           "part_number": "VFI-00001",
           "description": "Motherboard",
-          "category": "Motherboard"
+          "category": "Motherboard",
+          "substitute": "EP2-72969"
         },
         {
           "part_number": "VFI-00002",
           "description": "Motherboard (POTW)",
-          "category": "Motherboard"
+          "category": "Motherboard",
+          "substitute": "EP2-72970"
         },
         {
           "part_number": "VFI-00003",
           "description": "Motherboard (NATZ)",
-          "category": "Motherboard"
+          "category": "Motherboard",
+          "substitute": "EP2-72971"
         },
         {
           "part_number": "VE8-00001",
           "description": "Platinum",
-          "category": "Display"
+          "category": "Display",
+          "substitute": "EP2-72968"
         },
         {
           "part_number": "VNI-00001",
           "description": "Power Supply",
-          "category": "PSU"
+          "category": "PSU",
+          "substitute": "EP2-72972"
         }
       ]
     }
