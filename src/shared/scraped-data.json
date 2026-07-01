@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-01T02:34:36.256122+00:00",
+  "generatedAt": "2026-07-01T02:13:39.488930+00:00",
   "source": "https://learn.microsoft.com/en-us/surface/service-guides",
   "deviceCount": 26,
-  "partCount": 1418,
+  "partCount": 1420,
   "devices": [
     {
       "name": "Surface Laptop 5G for Business",
@@ -356,6 +356,11 @@
           "part_number": "EP2-34352",
           "description": "Violet",
           "category": "Feet"
+        },
+        {
+          "part_number": "EP2-84543",
+          "description": "8",
+          "category": "PCBA"
         },
         {
           "part_number": "EP2-35079",
@@ -5562,6 +5567,11 @@
           "part_number": "EP2-41588",
           "description": "Antenna Deck",
           "category": "Antenna Deck"
+        },
+        {
+          "part_number": "EP2-84535",
+          "description": "8GB/256GB",
+          "category": "Motherboard for Business (includes main processor and main memory)"
         },
         {
           "part_number": "EP2-31606",
