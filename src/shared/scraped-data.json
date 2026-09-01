@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T01:46:04.754843+00:00",
+  "generatedAt": "2026-09-01T02:27:08.839310+00:00",
   "source": "https://learn.microsoft.com/en-us/surface/service-guides",
   "deviceCount": 26,
-  "partCount": 1420,
+  "partCount": 1422,
   "devices": [
     {
       "name": "Surface Laptop 5G for Business",
@@ -358,18 +358,23 @@
           "category": "Feet"
         },
         {
+          "part_number": "EP2-84544",
+          "description": "8GB Commercial",
+          "category": "PCBA"
+        },
+        {
           "part_number": "EP2-84543",
-          "description": "8",
+          "description": "8GB",
           "category": "PCBA"
         },
         {
           "part_number": "EP2-35079",
-          "description": "16",
+          "description": "16GB",
           "category": "PCBA"
         },
         {
           "part_number": "EP2-35080",
-          "description": "24",
+          "description": "24GB",
           "category": "PCBA"
         },
         {
@@ -5569,7 +5574,7 @@
           "category": "Antenna Deck"
         },
         {
-          "part_number": "EP2-84535",
+          "part_number": "EP2-84536",
           "description": "8GB/256GB",
           "category": "Motherboard for Business (includes main processor and main memory)"
         },
@@ -5591,6 +5596,11 @@
         {
           "part_number": "EP2-31609",
           "description": "24GB/1TB",
+          "category": "Motherboard for Business (includes main processor and main memory)"
+        },
+        {
+          "part_number": "EP2-84535",
+          "description": "8GB/256GB",
           "category": "Motherboard for Business (includes main processor and main memory)"
         },
         {
